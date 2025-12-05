@@ -5,8 +5,9 @@ app = Flask(__name__, template_folder="templates")
 @app.get("/")
 def home():
     return render_template("index.html")
+
 @app.get("/index")
-def home():
+def homee():
     return render_template("index.html")
 
 
